@@ -1,0 +1,19 @@
+{
+    "env": {
+      "test": {
+        "plugins": [
+          "rewire"
+        ]
+      }
+    },
+    "presets": [
+        ["es2015", {"modules": false}],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "syntax-trailing-function-commas",
+        "transform-strict-mode",
+        "react-hot-loader/babel"
+    ]
+}

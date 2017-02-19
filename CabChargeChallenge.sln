@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1E60F90-4BF1-4259-939F-BC710AFA7BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADBAC340-E002-4DAF-A5FB-68AE3305F09D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmailService", "src\EmailService\EmailService.xproj", "{88C0F4EC-005E-480D-9B0C-7159B64F4BCE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmailWebApp", "src\EmailWebApp\EmailWebApp.xproj", "{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C0F4EC-005E-480D-9B0C-7159B64F4BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C0F4EC-005E-480D-9B0C-7159B64F4BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C0F4EC-005E-480D-9B0C-7159B64F4BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C0F4EC-005E-480D-9B0C-7159B64F4BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88C0F4EC-005E-480D-9B0C-7159B64F4BCE} = {C1E60F90-4BF1-4259-939F-BC710AFA7BED}
+		{2638F8AA-5EE1-4FA9-8485-17AD5E15FA3F} = {C1E60F90-4BF1-4259-939F-BC710AFA7BED}
+	EndGlobalSection
+EndGlobal
